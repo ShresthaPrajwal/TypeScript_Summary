@@ -33,8 +33,17 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3rem;
   line-height: 1.1;
+}
+h2{
+  font-size: 2rem;
+}
+code{
+  font-size:0.9rem
+}
+p{
+  font-size: 1rem;
 }
 
 #app {
@@ -91,6 +100,35 @@ button:focus-visible {
   margin:1rem;
 }
 
+@media screen and (max-width: 600px){
+  #app{
+    padding: 1rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
+  .card {
+    padding: 1em;
+  }
+  button {
+    padding: 0.4em 0.8em;
+    font-size: 0.8em;
+  }
+  #components{
+    padding: 1rem;
+    margin:0.5rem;
+  }
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -102,4 +140,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
 }

@@ -7,6 +7,6 @@ export const headerDiv:string = `
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>TypeScript Basics</h1>
-    
+
   </div>
 `
